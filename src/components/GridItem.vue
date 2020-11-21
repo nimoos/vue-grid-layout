@@ -304,6 +304,7 @@
             }
         },
         mounted: function () {
+        console.log('started')
             if (this.layout.responsive && this.layout.lastBreakpoint) {
                 this.cols = getColsFromBreakpoint(this.layout.lastBreakpoint, this.layout.cols);
             } else {
