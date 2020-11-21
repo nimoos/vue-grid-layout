@@ -4,6 +4,7 @@
          :class="classObj"
          :style="style"
     >
+    hiiiii
         <slot></slot>
         <span v-if="resizableAndNotStatic" ref="handle" :class="resizableHandleClass"></span>
         <!--<span v-if="draggable" ref="dragHandle" class="vue-draggable-handle"></span>-->
